@@ -1,0 +1,722 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Works in browser -->
+    <link rel="icon" href="img/logo&favicon/MP.png" />
+    <!-- Works in Apple -->
+    <link rel="icon" href="img/logo&favicon/MP.png" />
+     <!--<link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/website.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <title>Mesned Pharma Consult Center</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- ********************************************************************** -->
+    <!-- **************************** Search SidBar ************************************ -->
+
+    <section id="Search_section" class="searchClose">
+      <div class="title_box">
+        <div class="div_icon">
+          <img
+            src="./img/images/Groupe 1459.png"
+            class="iconright"
+            onclick="ToggleSidebar(Search_section)"
+          />
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_inputs">
+          <input
+            type="text"
+            placeholder="How can we help you ?"
+            class="input_txt"
+          />
+
+          <ion-icon name="arrow-forward-outline" class="input_icon"></ion-icon>
+        </div>
+        <div class="content_line"></div>
+      </div>
+    </section>
+
+    <!-- **************************** Location ************************************ -->
+    <section id="location_section" class="locationClose">
+      <div class="title_box">
+        <div class="div_icon">
+          <img
+            src="./img/images/Groupe 1459.png"
+            class="iconright"
+            onclick="ToggleSidebar(location_section)"
+          />
+        </div>
+      </div>
+      <div class="current">
+        <h1 class="current_title">Welcome To Mesned Pharma Consult Center</h1>
+        <p class="current_info">
+          <span class="type">Address :</span> 5885 San Felipe st #550Houston ,Tx
+          77057
+        </p>
+        <p class="current_info">
+          <span class="type">Phone :</span> 06 10 79 52 26
+        </p>
+        <p class="current_info">
+          <span class="type">E-mail :</span> hello@gmail.com
+        </p>
+        <div class="current_line"></div>
+      </div>
+      <div id="our_location">
+        <div class="our_location--title">Take it easy With Google</div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216424.00292963602!2d35.846578586464226!3d32.052339074357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b6ffd7d82ce51%3A0xab184352f80bdfb2!2sGalaxy%20Park!5e0!3m2!1sfr!2sma!4v1671838902714!5m2!1sfr!2sma"
+          class="our_location--map"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- **************************** HEADER ************************************ -->
+
+    <header class="header">
+      <a href="#" class="header__logo-link logo logo_hide">
+        <img
+          src="img/logo&favicon/logo.jpg"
+          alt="Mohamed Haddou Logo"
+          class="header__logo"
+        />
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li>
+            <a href="#" class="header__logo-link logo">
+              <img
+                src="img/logo&favicon/logo.jpg"
+                alt="Mohamed Haddou Logo"
+                class="header__logo"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="header__nav--link" href="./pages/aboutus.html"
+              >About Us
+            </a>
+          </li>
+          <li>
+            <a class="header__nav--link" href="./pages/service.html"
+              >Divisions
+            </a>
+          </li>
+          <li>
+            <a class="header__nav--link" href="./pages/training.html"
+              >Our Training</a
+            >
+          </li>
+          <!-- <li>
+            <a class="header__nav--link" href="#partners_section">Partners</a>
+          </li> -->
+          <li>
+            <a class="header__nav--link" href="./pages/news.html">News</a>
+          </li>
+          <li>
+            <a class="header__nav--link" href="./pages/contact.html"
+              >Contact Us</a
+            >
+          </li>
+          <li class="hide">
+            <button class="btn_icon">
+              <ion-icon
+                class="header__btn--mobile-icon"
+                name="search-outline"
+                onclick="ToggleSidebar(Search_section)"
+              ></ion-icon></button
+            ><button class="btn_icon">
+              <ion-icon
+                class="header__btn--mobile-icon"
+                name="location"
+                onclick="ToggleSidebar(location_section)"
+              ></ion-icon>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__icons">
+        <li>
+          <button class="btn_icon btn-link">
+            <ion-icon
+              class="header__btn--mobile-icon"
+              name="search-outline"
+              onclick="ToggleSidebar(Search_section)"
+            ></ion-icon>
+          </button>
+        </li>
+        <li>
+          <button class="btn_icon">
+            <ion-icon
+              class="header__btn--mobile-icon"
+              name="location"
+              onclick="ToggleSidebar(location_section)"
+            ></ion-icon>
+          </button>
+        </li>
+      </ul>
+      <button class="header__btn--mobile" id="btn">
+        <ion-icon
+          class="header__btn--mobile-icon"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="header__btn--mobile-icon"
+          name="close-outline"
+        ></ion-icon>
+      </button>
+    </header>
+
+    <!-- **************************** Hero Section **************************** -->
+    <section class="hero_Section">
+      <div class="capsule_container">
+        <div class="capsule">
+          <!-- create your owl carousel -->
+          <div class="capsule_slider owl-carousel ">
+            <div class="capsule_item">
+              <h1 class="heading">Hope Changes Lives</h1>
+              <p class="para">
+                We’re in relentless pursuit of scientific breakthroughs and
+                revolutionary medicines that will create a healthier world for
+                everyone.
+              </p>
+              <a href="#" class="btn"> See More </a>
+            </div>
+            <!-- <div class="capsule_item">
+              <h1 class="heading">CALLAB</h1>
+              <p class="para">
+                CALLAB for Measurement Has Been Accredited In Compliance With
+                ISO/IEC 17025:2017 By SACC
+              </p>
+              <a href="#" class="btn"> See More </a>
+            </div>
+            <div class="capsule_item">
+              <h1 class="heading">Your Gateway To</h1>
+              <p class="para">
+                Mesned Pharma Consult Center (MPCC) was established in 2005 and
+                is now the healthcare industry&#8217;s FIRST choice for
+                sustainable outsourcing of Regulatory affairs
+              </p>
+              <a href="#" class="btn"> See More </a>
+            </div>
+            <div class="capsule_item">
+              <h1 class="heading">MPCC</h1>
+              <p class="para">
+                MPCC has experience for preparing companies for regulatory
+                inspections and are fully familiar with SFDA regulations (as
+                well as EMA &#038; FDA regulations) and expectations during
+                inspections
+              </p>
+              <a href="#" class="btn"> See More </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- **************************** Old Sider **************************** -->
+      <!--<div class="Hero_slider owl-carousel owl-theme">
+        <div class="Hero_slider--slide">
+          <img src="./img/hero/hero-small.jpg" alt="image" class="slide_img" />
+          <div class="slide_content">
+            <h1 class="slide_content--heading">Hope Changes Lives</h1>
+            <p class="slide_content--para">
+              We’re in relentless pursuit of scientific breakthroughs and
+              revolutionary medicines that will create a healthier world for
+              everyone.
+            </p>
+            <a href="#" class="slide_content--btn"> See More </a>
+          </div>
+        </div>
+        <div class="Hero_slider--slide">
+          <img src="./img/hero/look.png" alt="image" class="slide_img" />
+          <div class="slide_content">
+            <h1 class="slide_content--heading">Hope Changes Lives</h1>
+            <p class="slide_content--para">
+              We’re in relentless pursuit of scientific breakthroughs and
+              revolutionary medicines that will create a healthier world for
+              everyone.
+            </p>
+            <a href="#" class="slide_content--btn"> See More </a>
+          </div>
+        </div>
+        <div class="Hero_slider--slide">
+          <img
+            src="./img/images/custom_training.png"
+            alt="image"
+            class="slide_img"
+          />
+          <div class="slide_content">
+            <h1 class="slide_content--heading">Heading</h1>
+            <p class="slide_content--para">
+              Paragraph Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Rerum harum, sapiente praesentium possimus modi mollitia
+              quibusdam, veniam ullam illum hic dolorem unde eligendi eum
+              quaerat quas aut quae error porro?
+            </p>
+            <a href="#" class="slide_content--btn"> See More </a>
+          </div>
+        </div>
+        <div class="Hero_slider--slide">
+          <img
+            src="./img/images/Medication.png"
+            alt="image"
+            class="slide_img"
+          />
+          <div class="slide_content">
+            <h1 class="slide_content--heading">Heading</h1>
+            <p class="slide_content--para">
+              Paragraph Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Rerum harum, sapiente praesentium possimus modi mollitia
+              quibusdam, veniam ullam illum hic dolorem unde eligendi eum
+              quaerat quas aut quae error porro?
+            </p>
+            <a href="#" class="slide_content--btn"> See More </a>
+          </div>
+        </div>
+      </div>-->
+    </section>
+
+    <!-- **************************** Partners Section **************************** -->
+    <div class="blue_section m-0" id="partners_section">
+      <div class="partners-section">
+        <h2 class="heading-featured-in">accreditation</h2>
+        <div class="logos owl-carousel owl-carousel-partners">
+          <a href="#" class="item"><img src="img/FEATURED/Calistya.png" /></a>
+          <a href="#" class="item"><img src="img/FEATURED/dagieu.png" /></a>
+          <a href="#" class="item"><img src="img/FEATURED/future.png" /></a>
+          <a href="#" class="item"><img src="img/FEATURED/sm.png" /></a>
+          <a href="#" class="item"
+            ><img src="img/FEATURED/Tech_et_Cie.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- **************************** Founder Section **************************** -->
+    <!-- <section class="light_section" id="AboutUs">
+      <div class="AbouUs-section">
+        <img src="img/images/mesned.png" alt="....." />
+        <div class="AbouUs-section_container">
+          <h3 class="title-about subheading">About The Founder</h3>
+          <h1 class="AbouUs-section_container--heading">Abdullah Al-Mesned</h1>
+          <p class="AbouUs-section_container--paragraph">
+            Abdullah Al-Mesned founded PharmacyCo in 2005 with the goal of
+            providing high-quality, affordable pharmacy products to customers.
+            With a background in pharmaceuticals and a passion for helping
+            others, John saw a need in the market for a company that could meet
+            the diverse needs of patients and healthcare professionals. Over the
+            years, PharmacyCo has grown into a respected and trusted name in the
+            industry, thanks in part to John's leadership and vision. Today,
+            PharmacyCo offers a wide range of products, including prescription
+            medications, over-the-counter drugs, and medical supplies, all of
+            which are carefully curated and rigorously tested to ensure their
+            safety and effectiveness.
+          </p>
+          <a href="#" class="btn btn--white">See More</a>
+        </div>
+      </div>
+    </section> -->
+    <!-- **************************** features Section **************************** -->
+
+    <!-- <section class="blue_section m-0">
+      <div class="features_header">
+        <h1 class="features_header--title heading">Cirtification</h1>
+      </div>
+      <div class="features_section--cardes">
+        <div class="card">
+          <img src="img/images/trust.svg" alt="" class="card_icon" />
+          <h1 class="card_heading">Trust</h1>
+          <p class="card_para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            vero eaque placeat fugiat .
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/images/Star-Fill.svg" alt="" class="card_icon" />
+          <h1 class="card_heading">5 stars</h1>
+          <p class="card_para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            vero eaque placeat fugiat .
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/images/eco.svg" alt="" class="card_icon" />
+          <h1 class="card_heading">Quality</h1>
+          <p class="card_para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            vero eaque placeat fugiat .
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- **************************** About Us Section **************************** -->
+    <section class="light_section" id="AboutUs">
+      <div class="AbouUs-section">
+        <img src="img/images/Medication.png" alt="....." />
+        <div class="AbouUs-section_container">
+          <h3 class="title-about subheading">About Us</h3>
+          <h1 class="AbouUs-section_container--heading">
+            Understanding Obesity as a Complex Disease
+          </h1>
+          <p class="AbouUs-section_container--paragraph">
+            Some people think obesity is simply caused by unhealthy eating
+            habits and not exercising enough. But, in fact, the scientific and
+            medical community defines obesity as a complex, multifactoral
+            chronic disease.
+          </p>
+          <a href="#" class="btn btn--white">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- **************************** Our Team Section **************************** -->
+    <section class="blue_section">
+      <div class="team_section">
+        <h1 class="heading">Our Team</h1>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eum
+          ipsum similique qui reiciendis labore repellat incidunt velit quo
+          quisquam alias Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Nam pariatur, dolore aperiam, qui quis error soluta labore quod
+          rem necessitatibus voluptates tenetur eveniet! Quas rem sint maxime
+          doloremque. Facilis, commodi?
+        </p>
+        <img
+          src="./img/images/ourTeam.png"
+          alt="Mesned Pharma Consult Center"
+          class="team_section--img"
+        />
+      </div>
+    </section>
+
+    <!-- **************************** News Section **************************** -->
+    <section class="light_section mb-8" id="News">
+      <div class="News_section">
+        <div class="title">
+          <h1 class="heading">Latest News</h1>
+          <hr />
+        </div>
+        <div class="New_line">
+          <div class="New">
+            <img class="New_img" src="img/images/new-1.png" alt="....." />
+            <div class="New_content">
+              <a href="./pages/news_details.html" class="New_content--title">
+                What Does mRNA Mean for the Flu Vaccine?
+              </a>
+              <p class="New_content--para">
+                By using the same kind of technology that developed a COVID-19
+                vaccine, scientists can develop an mRNA flu vaccine with better
+                speed and more precision.
+              </p>
+              <!-- <a href="./pages/news_details.html" class="btn New_content--btn"
+                >See More</a
+              > -->
+            </div>
+          </div>
+          <!-- <hr /> -->
+        </div>
+        <div class="New_line">
+          <div class="New">
+            <img class="New_img" src="img/images/new-2.png" alt="....." />
+            <div class="New_content">
+              <a href="./pages/news_details.html" class="New_content--title">
+                What Does mRNA Mean for the Flu Vaccine?
+              </a>
+              <p class="New_content--para">
+                By using the same kind of technology that developed a COVID-19
+                vaccine, scientists can develop an mRNA flu vaccine with better
+                speed and more precision.
+              </p>
+              <!-- <a href="./pages/news_details.html" class="btn New_content--btn"
+                >See More</a
+              > -->
+            </div>
+          </div>
+          <!-- <hr /> -->
+        </div>
+        <div class="New_line">
+          <div class="New">
+            <img class="New_img" src="img/images/new-3.png" alt="....." />
+            <div class="New_content">
+              <a href="./pages/news_details.html" class="New_content--title">
+                What Does mRNA Mean for the Flu Vaccine?
+              </a>
+              <p class="New_content--para">
+                By using the same kind of technology that developed a COVID-19
+                vaccine, scientists can develop an mRNA flu vaccine with better
+                speed and more precision.
+              </p>
+              <!-- <a href="./pages/news_details.html" class="btn New_content--btn"
+                >See More</a
+              > -->
+            </div>
+          </div>
+          <!-- <hr /> -->
+        </div>
+
+        <a href="./pages/news.html" class="btn btn--moreNews">More News</a>
+      </div>
+    </section>
+
+    <!-- **************************** Services Section **************************** -->
+    <section class="blue_section" id="Services">
+      <div class="application-section">
+        <div class="mb-8">
+          <h3 class="heading">Our Services</h3>
+          <p class="paragraph">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            aperiam maiores in dolorum enim atque voluptatibus, doloribus,
+            delectus repellendus, asperiores cumque iste? Voluptate
+            necessitatibus officia beatae ratione illum sed ut.
+          </p>
+        </div>
+        <div class="application-section_level">
+          <div class="application-section_level--box">
+            <div class="marge">
+              <h1 class="number">01</h1>
+              <h2 class="title">communication</h2>
+            </div>
+            <p class="paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+              aperiam maiores in dolorum enim atque voluptatibus, doloribus,
+              delectus repellendus, asperiores cumque iste? Voluptate
+              necessitatibus officia beatae ratione illum sed ut.
+            </p>
+            <a href="./pages/service.html" class="btn-service">See More</a>
+          </div>
+          <img
+            class="application-section_level--img"
+            src="img/images/img-ser-1.png"
+            alt="groupe scolaire alamana application"
+          />
+
+          <img
+            src="img/images/img-ser-2.png"
+            alt="groupe scolaire alamana application"
+          />
+          <div
+            class="application-section_level--box application-section_level--img"
+          >
+            <div class="marge">
+              <h1 class="number">02</h1>
+              <h2 class="title">Espace des fichiers</h2>
+            </div>
+            <p class="paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+              aperiam maiores in dolorum enim atque voluptatibus, doloribus,
+              delectus repellendus, asperiores cumque iste? Voluptate
+              necessitatibus officia beatae ratione illum sed ut.
+            </p>
+            <a href="./pages/service.html" class="btn-service">See More</a>
+          </div>
+          <div class="application-section_level--box">
+            <div class="marge">
+              <h1 class="number">03</h1>
+              <h2 class="title">Demande des pièces en ligne</h2>
+            </div>
+            <p class="paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+              aperiam maiores in dolorum enim atque voluptatibus, doloribus,
+              delectus repellendus, asperiores cumque iste? Voluptate
+              necessitatibus officia beatae ratione illum sed ut.
+            </p>
+            <a href="./pages/service.html" class="btn-service">See More</a>
+          </div>
+          <img
+            class="application-section_level--img"
+            src="img/images/img-ser-3.png"
+            alt="groupe scolaire alamana application"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- **************************** Clients Section **************************** -->
+    <section class="light_section">
+      <div class="client-section">
+        <h2 class="heading">Our Clients</h2>
+        <div class="logos owl-carousel owl-carousel-client">
+          <a href="https://alamana-online.com/" target="_blank" class="item"
+            ><img src="img/projects_logos/alamana.png" alt="techcrunch"
+          /></a>
+          <a href="https://www.motakamela.com/" target="_blank" class="item"
+            ><img
+              src="img/projects_logos/almotakamela.png"
+              alt="business-insider"
+          /></a>
+          <a
+            href="https://mohamed-haddou.netlify.app/"
+            target="_blank"
+            class="item"
+            ><img src="img/projects_logos/haddou.png" alt="forbes"
+          /></a>
+          <a
+            href="https://mohamed-haddou.netlify.app/"
+            target="_blank"
+            class="item"
+            ><img src="img/projects_logos/janaza.png" alt="the-new-york-times"
+          /></a>
+          <a
+            href="https://alharaka.ma/fr/mouvement-populaire-maroc/"
+            class="item"
+            target="_blank"
+            ><img src="img/projects_logos/logo.png" alt="usa-today" /></a
+          ><a
+            href="https://meedagency.netlify.app/"
+            class="item"
+            target="_blank"
+            ><img src="img/projects_logos/MeedAgency.png" alt="usa-today"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!--*******************  Bana Medical - SECTION   ********************** -->
+    <section class="banaSection">
+      <img
+        src="./img/images/bana_img.png"
+        alt="Bana_Medical_co"
+        class="banaSection_img"
+      />
+      <p class="banaSection_para">
+        MPCC ( a member of
+        <span class="banaSection_para--green">Bana Group</span> ) was
+        established in 2005 and is now the healthcare industry's First choice
+        for sustainable outsourcing of Regulatory affairs .Clinical Research and
+        Technical consulting services in the middle East.
+      </p>
+      <div class="bana_links">
+        <ul class="listOfLinks">
+          <li class="listOfLinks_link"><a href="./pages/join.html">Join our expertise team</a> </li>
+          <li class="listOfLinks_link"><a href="https://www.linkedin.com/company/mesned-phrama-consult-center/">LinkedIn</a> </li>
+          <li class="listOfLinks_link"><a href="#">Customer Satisfaction</a> </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--*******************  Whatsup  - SECTION   ********************** -->
+    <a
+      class="btn-Whatsapp"
+      href="https://api.whatsapp.com/send?phone=0658187803"
+      target="_blank"
+    >
+      <ion-icon name="logo-whatsapp" class="btn-Whatsapp--icon"></ion-icon>
+    </a>
+
+    <!--*******************  FOOTER  - SECTION   ********************** -->
+    <!-- <footer class="footer bg-blue">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo"
+              src="img/logo&favicon/logo.jpg"
+              alt="Mesned Pharma Consult Center"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a target="_blank" class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-behance"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; 2022 Build by Mesned pharm Consult Center .
+          </p>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Our Team</a></li>
+            <li><a href="#" class="footer-link">Sign in</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Support</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">About Meed Agency</a></li>
+            <li><a href="#" class="footer-link">For Business</a></li>
+            <li><a href="#" class="footer-link">Cooking partners</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Get Help</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Our Team</a></li>
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer> -->
+    <!--! script -->
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script-slide.js"></script>
+  </body>
+</html>
